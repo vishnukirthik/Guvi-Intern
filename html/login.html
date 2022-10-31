@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/login.js" ></script>
+</head>
+
+<body>
+    <div class="infinity-container">
+        <!-- FORM CONTAINER BEGIN -->
+        <div class="infinity-form-block">
+            <div class="infinity-click-box text-center">Click Here to Login</div>
+
+            <div class="infinity-fold">
+                <div class="infinity-form">
+                    <form autocomplete="off" action="" method="post">
+                        <!-- Input Box -->
+                        <input type="hidden" id="action" value="login">
+                        <div class="form-input">
+                            <input type="email" id="email" placeholder="Email Address" value="" required>
+                        </div>
+                        <div class="form-input">
+                            <input type="password" id="password" placeholder="Password" value="" required>
+                        </div>
+        
+                        <!-- Login Button -->
+                        <button type="submit" class="btn btn-block" onclick="submitData();">Login</button>
+
+
+                        <div class="text-center text-white">Don't have an account?
+                            <a class="register-link" href="register.php">Register here</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>

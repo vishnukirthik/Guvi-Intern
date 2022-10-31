@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/register.js"></script>
+</head>
+
+<body>
+    <div class="infinity-container">
+        <div class="infinity-form-block">
+            <div class="infinity-click-box text-center">Click Here to Register</div>
+
+            <!-- FORM BEGIN -->
+            <div class="infinity-fold">
+                <div class="infinity-form">
+                    <!-- Form -->
+                    <form autocomplete="off" action="" method="post">
+                        <!-- Input Box -->
+                        <input type="hidden" id="action" value="register">
+                        <div class="form-input">
+                            <input type="text" id="username" placeholder="Full Name" value="" required>
+                        </div>
+                        <div class="form-input">
+                            <input type="text" id="email" placeholder="Email Address" value="" required>
+                        </div>
+                        <div class="form-input">
+                            <input type="password" id="password" placeholder="Password" value="" required>
+                        </div>
+                        <div class="form-input">
+                            <input type="number" id="age" placeholder="Age" value="" required>
+                        </div>
+                        <div class="form-input">
+                            <input type="number" id="phonenumber" placeholder="Phonenumber" value="" required>
+                        </div>
+                        <!-- Register Button -->
+                        <button type="button" class="btn btn-block" onclick="submitData();">Register</button>
+
+                    </form>
+                    <div class="text-center text-white">Go to Login
+                        <a class="login-link" href="login.php">Login Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- FORM END -->
+        </div>
+    </div>
+   
+</body>
+</html>

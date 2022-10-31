@@ -1,0 +1,114 @@
+.infinity-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: black;
+  background-size: contain;
+  background: url("../image/bg.svg") center;
+  font-family: sans-serif;
+}
+
+.infinity-form-block {
+  width: 350px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.infinity-click-box {
+  height: 50px;
+  background-color: #454b69;
+  color: #fff;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.infinity-fold {
+  position: relative;
+  width: 100%;
+  background: rgba(17, 24, 34, 0.5);
+  transform-origin: top;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  perspective: 2000px;
+  transform: rotateX(90deg);
+}
+
+.infinity-fold.active {
+  perspective: 2000px;
+  transform: rotateX(0deg);
+}
+
+.infinity-form .form-input input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.infinity-form .form-input input::-moz-placeholder {
+  color: #fff;
+}
+
+.infinity-form .form-input input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.infinity-form .form-input input::placeholder {
+  color: #fff;
+}
+
+.infinity-form .form-input input:focus,
+.infinity-form .form-input input:valid {
+  border: 2px solid #454b69;
+}
+
+.infinity-form .form-input input:focus::-moz-placeholder {
+  color: #454b69;
+}
+
+.infinity-form .form-input input:focus:-ms-input-placeholder {
+  color: #454b69;
+}
+
+.infinity-form .form-input input:focus::placeholder {
+  color: #454b69;
+}
+
+.infinity-form button[type=submit] {
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #454b69, #686d8b);
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-bottom: 10px;
+}
+
+.infinity-form button[type=submit]:hover {
+  background: linear-gradient(45deg, #686d8b, #454b69);
+}
+
+.forget-link, .login-link, .register-link {
+  color: #fff;
+  font-weight: bold;
+}
+
+.forget-link:hover, .login-link:hover, .register-link:hover {
+  color: #454b69;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
