@@ -36,9 +36,6 @@ if (isset($_SESSION["id"])) {
       <li class="list-group-item"><?php echo "Phonenumber: ";
                                   echo $user["phonenumber"] ?></li>
     </ul>
-    <div class="card-body">
-      <a href="./json/datafetch.php" class="card-link">other Interns data</a>
-    </div>
   </div>
 </body>
 

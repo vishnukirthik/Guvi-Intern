@@ -36,9 +36,6 @@ if (isset($_SESSION["id"])) {
                         <a class="nav-link active" aria-current="page" href="profile.php">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./json/datafetch.php">GuviDB</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link active" href="logout.php">Logut</a>
                     </li>
 
