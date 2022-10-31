@@ -31,9 +31,9 @@ if (isset($_SESSION["id"])) {
                                   echo $user["username"] ?></li>
       <li class="list-group-item"><?php echo "Age: ";
                                   echo $user["age"] ?></li>
-      <li class="list-group-item"><?php echo "email: ";
+      <li class="list-group-item"><?php echo "Email: ";
                                   echo $user["email"] ?></li>
-      <li class="list-group-item"><?php echo "phonenumber: ";
+      <li class="list-group-item"><?php echo "Phonenumber: ";
                                   echo $user["phonenumber"] ?></li>
     </ul>
     <div class="card-body">
