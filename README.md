@@ -15,15 +15,19 @@ Register page:
 ![image](https://user-images.githubusercontent.com/80109029/199030444-7fb77d3c-23a0-46cb-8a3d-12f9ea78611c.png)
 
 Login page:
-![image](https://user-images.githubusercontent.com/80109029/199029593-12746dc8-35ff-4c63-9e25-c58e2425468a.png)
+![image](https://user-images.githubusercontent.com/80109029/199150117-868fdbaa-cdcd-4eee-921e-12aca4e22097.png)
 
 Welcome page:
-![image](https://user-images.githubusercontent.com/80109029/199029914-e772628f-5f2b-416e-a416-c26a24119610.png)
+![image](https://user-images.githubusercontent.com/80109029/199150201-1b7f557c-564a-4b4f-a0ef-68b5e607384f.png)
+
 
 Profile page:
-![image](https://user-images.githubusercontent.com/80109029/199030129-44875a37-513f-4c75-b072-c69c4aefe8ac.png)
+![image](https://user-images.githubusercontent.com/80109029/199150266-1f03ae8e-a92f-4427-afeb-7898d9216a23.png)
+
 
 JSON Data:
-![image](https://user-images.githubusercontent.com/80109029/199030256-8a29d792-4070-4a1b-b30b-88a609d7e33c.png)
+To update the  JSON data in profile.json.please first run data.php file and then open profile.json.
+![image](https://user-images.githubusercontent.com/80109029/199150467-e00c3869-e61e-4c9a-9c97-b78fbad46d94.png)
+
 
 
